@@ -1,6 +1,2 @@
-def bsPut():
-    return 1
-def bsCall():
-    return 1
-
+#from .black_scholes import bsPut
 
