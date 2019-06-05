@@ -17,8 +17,6 @@ def call(stock_price, strike_price,risk_free, percent_year, volatility):
     pay = K * math.exp(-r*t) * phi(d2num/dden)
     return get - pay
 
-def day2yr(days):
-   return days/365
 
 def p2cParity(put_price, stock_price, strike_price, risk_free, percent_year):
     P = put_price
